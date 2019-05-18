@@ -10,13 +10,13 @@ public class ItunesSongItem implements SongItem {
     //TODO add all the members to this class with proper serialized names
     @SerializedName("trackId")
     private long trackId;
-    @SerializedName("trackName")
+    @SerializedName("trackCensoredName")
     private String trackName;
     @SerializedName("artistName")
     private String artistName;
     @SerializedName("albumName")
     private String albumName;
-    @SerializedName("artworkUrl")
+    @SerializedName("artworkUrl60")
     private String artworkUrl;
     @SerializedName("previewUrl")
     private String previewUrl;
